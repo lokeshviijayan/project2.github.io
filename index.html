@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div {
+            background-color: rgb(234, 234, 233);
+            margin: auto;
+            width: 60%;
+            border: 3px solid #dedede;
+            padding: 10px;
+            padding-top: 80px;
+            padding-bottom: 100px;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+        }
+        .heading {
+            text-align: center; 
+            color: #d4d4d4;
+           padding-top: 0.8cm;
+           font-size:12px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .button {
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 16px 6px;
+            cursor: pointer;
+            background-color: #e0dbd3;
+        }
+        body
+        {
+            background-image: url("https://mrwallpaper.com/images/high/4k-bmw-car-in-dark-c0ot64ri2fecu1pr.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .a
+        {
+            
+            height: 50px;
+            background-color: black;
+            border: 0px;
+        }
+        .h{
+            cursor: pointer;
+            transition: 0.5s;
+        }
+         .h:hover 
+         {
+            scale: 2.5;
+         }
+    
+       
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img class="h" src="https://yt3.googleusercontent.com/lwCVsjTlM4Lx1OiOgHj8bpXn9DAgWSv4q4CpB7nGpBWo_NnOLXAzbBJwAF6_n95FcSWSIZuA=s900-c-k-c0x00ffffff-no-rj" width="100px" height="100px">
+        <h1 class="heading"><b>Sheer Driving Pleasure</b></h1>
+        <!-- <a href="galary.html"><button class="button">View Gallery</button></a> -->
+    </div>
+
+    <script>
+        const a=document.querySelector('.h');
+        a.addEventListener('click',()=>
+    {
+        window.location.href="galary.html";
+    })
+    </script>
+</body>
+</html>
